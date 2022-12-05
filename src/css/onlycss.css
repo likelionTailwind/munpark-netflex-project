@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+:lang(ko){
+  word-break: keep-all;
+}
+
 body{
   background-color: #000;
   color: #fff;
