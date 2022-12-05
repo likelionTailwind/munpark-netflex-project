@@ -1,0 +1,29 @@
+*, *::before, *::after{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+hr{
+  color: #2f2f2f;
+}
+
+.padd-50{
+  background-color: inherit;
+  padding: 50px;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.reverse{
+  flex-direction: row-reverse;
+}
