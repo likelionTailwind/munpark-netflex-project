@@ -517,10 +517,6 @@ video {
 
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
 
-.m-8 {
-  margin: 2rem;
-}
-
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -530,8 +526,12 @@ video {
   display: flex;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-lg {
@@ -540,10 +540,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -558,14 +554,18 @@ video {
   word-break: keep-all;
 }
 
-.border-t-gray {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(117 117 117 / var(--tw-border-opacity));
+.border-t-2 {
+  border-top-width: 2px;
 }
 
-.border-t-white {
+.border-white {
   --tw-border-opacity: 1;
-  border-top-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-gray {
+  --tw-border-opacity: 1;
+  border-color: rgb(117 117 117 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -573,28 +573,14 @@ video {
   background-color: rgb(1 1 1 / var(--tw-bg-opacity));
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.text-left {
-  text-align: left;
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .text-center {
@@ -626,17 +612,11 @@ video {
     flex-direction: row;
   }
 
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
   .md\:text-left {
-    text-align: left;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:text-left {
     text-align: left;
   }
 }
