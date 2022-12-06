@@ -12,13 +12,10 @@ body{
   color: #fff;
 }
 
-hr{
-  color: #2f2f2f;
-}
 
 .padd-50{
   background-color: inherit;
-  border-top: 1px solid #1f1f1f;
+  border-top: 1px solid #2f2f2f;
   padding: 50px;
 }
 
@@ -31,4 +28,22 @@ hr{
 }
 .reverse{
   flex-direction: row-reverse;
+}
+
+.desc div{
+  max-width: 400px;
+}
+
+@media screen and (max-width: 940px){
+  .flex-wrap{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+.desc div{
+  max-width: 400px;
+  text-align: center;
+}
 }
