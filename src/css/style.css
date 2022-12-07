@@ -516,3 +516,99 @@ video {
 /* Tailwind 컴포넌트 클래스와 플러그인에 의해 등록된 컴포넌트 클래스를 주입합니다. */
 
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
+
+.flex {
+  display: flex;
+}
+
+.h-\[22px\] {
+  height: 22px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.w-\[60px\] {
+  width: 60px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.font-spoqahansans {
+  font-family: Spoqa Han Sans Neo, sans-serif;
+}
+
+.text-logBtn {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* 사용자 정의 스타일 */
+
+[hidden] {
+  display: none;
+}
