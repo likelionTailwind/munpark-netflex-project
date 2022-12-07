@@ -1,0 +1,55 @@
+*, *::before, *::after{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:lang(ko){
+  word-break: keep-all;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.section{
+  background-color: inherit;
+  border-top: 1px solid #2f2f2f;
+  padding: 50px;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.reverse{
+  flex-direction: row-reverse;
+}
+
+.desc div{
+  max-width: 400px;
+}
+
+@media screen and (max-width: 940px){
+  .flex-wrap{
+    flex-direction: column;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+.desc div{
+  max-width: 400px;
+  text-align: center;
+}
+}
+@media screen and (max-width: 640px){
+  img{
+    width: 360px;
+    height: 270px;
+  }
+}
