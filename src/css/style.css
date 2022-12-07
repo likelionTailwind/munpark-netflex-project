@@ -788,8 +788,16 @@ video {
     margin-top: 28px;
   }
 
+  .md\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-\[140px\] {
@@ -824,6 +832,10 @@ video {
     width: 210px;
   }
 
+  .md\:w-\[205px\] {
+    width: 205px;
+  }
+
   .md\:flex-1 {
     flex: 1 1 0%;
   }
@@ -852,6 +864,11 @@ video {
     padding-right: 240.5px;
   }
 
+  .md\:py-\[50px\] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .md\:text-web-logBtn {
     font-size: 16px;
     line-height: 24px;
@@ -875,6 +892,11 @@ video {
   .md\:text-web-headerInfo4 {
     font-size: 22px;
     line-height: 26.4px;
+  }
+
+  .md\:text-footerInfo1 {
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .md\:placeholder\:py-\[18px\]::-moz-placeholder {
