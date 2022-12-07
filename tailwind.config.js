@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontSize:{
       'logBtn' : ['12px', '18px'],
+      'web-logBtn' : ['16px', '24px'],
       'headerInfo1' : ['34px', '40.8px'],
       'headerInfo2' : ['18px', '27px'],
       'headerInfo3' : ['14px', '21px'],
