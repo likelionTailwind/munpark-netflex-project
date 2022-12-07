@@ -517,10 +517,6 @@ video {
 
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
 
-.left-10 {
-  left: 2.5rem;
-}
-
 .mt-\[48px\] {
   margin-top: 48px;
 }
@@ -591,6 +587,10 @@ video {
 
 .w-\[162px\] {
   width: 162px;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
 }
 
 .flex-row {
@@ -691,11 +691,6 @@ video {
   line-height: 27px;
 }
 
-.text-headerInfo3 {
-  font-size: 14px;
-  line-height: 21px;
-}
-
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -726,6 +721,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-gray-200 {
@@ -776,6 +776,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:float-left {
+    float: left;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:mt-\[28px\] {
+    margin-top: 28px;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:h-\[140px\] {
     height: 140px;
   }
@@ -788,12 +804,32 @@ video {
     height: 40px;
   }
 
+  .md\:h-\[60px\] {
+    height: 60px;
+  }
+
   .md\:w-\[140px\] {
     width: 140px;
   }
 
   .md\:w-\[70px\] {
     width: 70px;
+  }
+
+  .md\:w-\[540px\] {
+    width: 540px;
+  }
+
+  .md\:w-\[210px\] {
+    width: 210px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:rounded-\[0\] {
+    border-radius: 0;
   }
 
   .md\:px-\[200px\] {
@@ -806,7 +842,67 @@ video {
     padding-bottom: 40px;
   }
 
+  .md\:py-\[570x\] {
+    padding-top: 570x;
+    padding-bottom: 570x;
+  }
+
+  .md\:px-\[240\.5px\] {
+    padding-left: 240.5px;
+    padding-right: 240.5px;
+  }
+
   .md\:text-web-logBtn {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:text-web-headerInfo1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .md\:text-web-headerInfo2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .md\:text-web-headerInfo3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:text-web-headerInfo4 {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .md\:placeholder\:py-\[18px\]::-moz-placeholder {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .md\:placeholder\:py-\[18px\]::placeholder {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .md\:placeholder\:px-\[20px\]::-moz-placeholder {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md\:placeholder\:px-\[20px\]::placeholder {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md\:placeholder\:text-web-headerInfo3::-moz-placeholder {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:placeholder\:text-web-headerInfo3::placeholder {
     font-size: 16px;
     line-height: 24px;
   }
