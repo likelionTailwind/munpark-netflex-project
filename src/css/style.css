@@ -630,6 +630,10 @@ video {
   word-break: keep-all;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-\[30px\] {
   border-radius: 30px;
 }
@@ -715,8 +719,33 @@ video {
   line-height: 18px;
 }
 
+.text-headerInfo1 {
+  font-size: 34px;
+  line-height: 40.8px;
+}
+
+.text-headerInfo2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-footerInfo1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text-footerInfo2 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.text-headerInfo4 {
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .font-bold {
@@ -762,6 +791,16 @@ video {
 
 .placeholder\:pb-\[9px\]::placeholder {
   padding-bottom: 9px;
+}
+
+.placeholder\:text-headerInfo3::-moz-placeholder {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.placeholder\:text-headerInfo3::placeholder {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 @media (min-width: 768px) {
@@ -833,6 +872,10 @@ video {
     flex-direction: row-reverse;
   }
 
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .md\:rounded-\[0\] {
     border-radius: 0;
   }
@@ -866,6 +909,36 @@ video {
     text-align: left;
   }
 
+  .md\:text-web-logBtn {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:text-web-headerInfo1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .md\:text-web-headerInfo2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .md\:text-web-headerInfo3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:text-web-headerInfo4 {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+
+  .md\:text-footerInfo1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .md\:placeholder\:py-\[18px\]::-moz-placeholder {
     padding-top: 18px;
     padding-bottom: 18px;
@@ -884,5 +957,15 @@ video {
   .md\:placeholder\:px-\[20px\]::placeholder {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .md\:placeholder\:text-web-headerInfo3::-moz-placeholder {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:placeholder\:text-web-headerInfo3::placeholder {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
