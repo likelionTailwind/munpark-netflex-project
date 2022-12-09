@@ -534,10 +534,6 @@ video {
   margin-top: 12px;
 }
 
-.ml-\[10px\] {
-  margin-left: 10px;
-}
-
 .mt-\[26px\] {
   margin-top: 26px;
 }
@@ -554,8 +550,24 @@ video {
   margin-top: 30px;
 }
 
+.mb-\[41px\] {
+  margin-bottom: 41px;
+}
+
+.mb-\[26px\] {
+  margin-bottom: 26px;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-\[80px\] {
@@ -598,8 +610,8 @@ video {
   max-width: 32rem;
 }
 
-.basis-1\/2 {
-  flex-basis: 50%;
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -624,6 +636,10 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-items-start {
+  justify-items: start;
 }
 
 .break-keep {
@@ -655,6 +671,11 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(1 1 1 / var(--tw-bg-opacity));
+}
+
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 9 20 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -733,6 +754,11 @@ video {
   font-size: 14px;
 }
 
+.text-headerInfo4 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 .text-footerInfo1 {
   font-size: 20px;
   line-height: 30px;
@@ -741,11 +767,6 @@ video {
 .text-footerInfo2 {
   font-size: 14px;
   line-height: 21px;
-}
-
-.text-headerInfo4 {
-  font-size: 12px;
-  line-height: 18px;
 }
 
 .font-bold {
@@ -812,8 +833,28 @@ video {
     margin-top: 28px;
   }
 
+  .md\:ml-\[25\%\] {
+    margin-left: 25%;
+  }
+
   .md\:mt-\[50px\] {
     margin-top: 50px;
+  }
+
+  .md\:mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+
+  .md\:mb-\[50px\] {
+    margin-bottom: 50px;
+  }
+
+  .md\:mt-\[46px\] {
+    margin-top: 46px;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .md\:flex {
@@ -864,16 +905,20 @@ video {
     max-width: 48rem;
   }
 
+  .md\:basis-1 {
+    flex-basis: 0.25rem;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
 
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
-  }
-
-  .md\:flex-nowrap {
-    flex-wrap: nowrap;
   }
 
   .md\:rounded-\[0\] {
