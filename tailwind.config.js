@@ -25,14 +25,8 @@ module.exports = {
       'blue': '#0071eb',
       'green': '#2ede75'
     },
-    fontSize: {
-      'logBtn': ['12px', '18px']
-    },
     fontFamily: {
       'spoqahansans': ['Spoqa Han Sans Neo', 'sans-serif'],
-    },
-    borderRadius:{
-      
     },
     extend: {},
   },
